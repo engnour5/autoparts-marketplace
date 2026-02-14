@@ -26,7 +26,16 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+.env
 .env*.local
+
+# database
+*.db
+*.db-journal
+
+# uploads
+/public/uploads/*
+!/public/uploads/.gitkeep
 
 # vercel
 .vercel
