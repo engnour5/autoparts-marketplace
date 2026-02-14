@@ -14,7 +14,7 @@ interface OrderFormProps {
     id: string;
     name: string;
     price: number;
-    images: string[];
+    images: string | string[];
   };
 }
 
